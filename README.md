@@ -33,3 +33,17 @@ All 32 flight options, prices, offers, contacts, testimonials, payments and conf
 ## Asset credits
 
 Photographs are sourced from Unsplash (https://unsplash.com/license); source photo IDs are recorded in ASSETS.md. Travel footage is from Pexels (https://www.pexels.com/license/). Google Fonts: DM Sans and Playfair Display (SIL Open Font License). Icons: Lucide (ISC). The GTravel logo was created specifically for this project. No real endorsements or review scores are claimed.
+
+## Agency homepage & travel inquiries
+
+The homepage introduces GTravel as a travel planning agency, with a prominent **Voyage à la carte** action and organized Omra, honeymoon and couples’ journeys. The interactive orthographic globe can be rotated by dragging or using arrow controls. The equivalent country list is keyboard accessible and remains usable if the map fails to load.
+
+The custom flow covers 10 countries, 20 regions and 40 fictional hotel preferences. Country changes clear the region and hotel; region changes clear the hotel. Travelers submit validated dates and contact details to a browser-local demo request. Requests are stored under `gt-inquiries`; users signing in with the same email see them on their dashboard. No agency email, inbox, callback workflow or backend is connected. The success message is explicitly labeled as a demonstration. Use fictional contact details.
+
+The organized journeys catalog includes three Omra programs, a Maldives honeymoon and couples’ stays in Marrakech and Istanbul. Each lists illustrative hotels, dates, duration, per-person DT prices and inclusions. Dates and hotel preferences carry into the inquiry flow. No payment or real booking takes place.
+
+- `src/components/agency-home.tsx`: agency-led homepage and organized package catalog
+- `src/components/journey-planner.tsx`: country → region → hotel → inquiry → confirmation flow
+- `src/components/destination-globe.tsx`: local world geometry rendered using D3 orthographic projection
+- `src/lib/journeys.ts`: typed sample catalog, inquiry validation and selection logic
+- `public/world.json`: simplified Natural Earth country boundaries (public domain)

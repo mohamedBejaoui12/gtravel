@@ -13,3 +13,6 @@ Locally downloaded Unsplash photographs, under the Unsplash license (https://uns
 - maldives.jpg — https://images.unsplash.com/photo-1514282401047-d79a71a590e8
 
 coast.mp4 — https://videos.pexels.com/video-files/2169880/2169880-hd_1920_1080_30fps.mp4 (Pexels license: https://www.pexels.com/license/). Footage is travel inspiration rather than a verified depiction of the named destination.
+
+- omra.jpg — https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb (Unsplash license). Depicts Makkah; not a representation of any fictional hotel named in the demo.
+- world.json — Natural Earth 1:110m admin-0 country geometry, public domain: https://www.naturalearthdata.com/about/terms-of-use/ . Source: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson . Properties simplified and coordinates rounded for this globe. Boundaries are for visual travel inspiration.
